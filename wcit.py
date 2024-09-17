@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-''' wc.py - print newline, word, and byte counts for stream '''
+''' wcit.py - print newline, word, and byte counts for stream '''
 
 import io
 import sys
@@ -9,7 +9,7 @@ import sys
 
 def usage(exit_status: int=0) -> None:
     ''' Print usage message and exit. '''
-    print('''Usage: wc.py [-l | -w | -c]
+    print('''Usage: wcit.py [-l | -w | -c]
 
 Print newline, word, and byte counts from standard input.
 

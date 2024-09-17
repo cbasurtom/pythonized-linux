@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-''' cut.py - remove sections from each line of stream '''
+''' cutit.py - remove sections from each line of stream '''
 
 import io
 import sys
@@ -9,7 +9,7 @@ import sys
 
 def usage(exit_status: int=0) -> None:
     ''' Print usage message and exit. '''
-    print('''Usage: cut -d DELIMITER -f FIELDS
+    print('''Usage: cutit -d DELIMITER -f FIELDS
 
 Print selected parts of lines from stream to standard output.
 
