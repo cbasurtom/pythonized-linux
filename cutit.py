@@ -9,7 +9,7 @@ import sys
 
 def usage(exit_status: int=0) -> None:
     ''' Print usage message and exit. '''
-    print('''Usage: cutit -d DELIMITER -f FIELDS
+    print('''Usage: cutit.py -d DELIMITER -f FIELDS
 
 Print selected parts of lines from stream to standard output.
 

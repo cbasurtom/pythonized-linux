@@ -1,13 +1,15 @@
 # pythonized-linux
 
-pythonized-linux is a repository dedicated to various Linux commands I have implemented into Python as practice, optional coursework for [Systems Programming](https://www3.nd.edu/~pbui/teaching/cse.20289.sp24/), and overall just for fun. These programs were essential for comprehending how to manage text input and output and will be updated to include more commands later on.
+pythonized-linux is a repository dedicated to various Linux commands I have implemented into Python as practice, optional coursework for [Systems Programming](https://www3.nd.edu/~pbui/teaching/cse.20289.sp24/), and overall just for fun. These programs were essential for comprehending how to manage text input and output 
+
+More commands to be included.
 
 ## cutit
 
 ### Usage
 
 ```python
-'''Usage: cutit -d DELIMITER -f FIELDS
+'''Usage: cutit.py -d DELIMITER -f FIELDS
 
 Print selected parts of lines from stream to standard output.
 
