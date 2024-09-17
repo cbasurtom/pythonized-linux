@@ -61,8 +61,6 @@ def print_counts(counts: dict[str, int], options: list[str]) -> None:
         result += str(counts.get('bytes')) + " "
 
     print(result.strip())
-    
-    # print(f"{counts.get('newlines')} {counts.get('words')} {counts.get('bytes')}")
 
 # Main Execution
 
@@ -94,7 +92,6 @@ def main(arguments=sys.argv[1:], stream=sys.stdin) -> None:
             c = False
         else:
             usage(1)
-        
         
     if c:
         options = ['newlines', 'words', 'bytes']

@@ -23,12 +23,12 @@ def strs_to_ints(strings: list[str]) -> list[int]:
     >>> strs_to_ints(['2', '4'])
     [2, 4]
     '''
-    ilist = []
+    int_list = []
     
-    for item in strings:
-        ilist.append(int(item))
+    for num in strings:
+        int_list.append(int(num))
 
-    return ilist
+    return int_list
 
 def cut_line(line: str, delimiter: str='\t', fields: list[int]=[]) -> list[str]:
     ''' Return selected fields from line separated by delimiter.
@@ -37,17 +37,17 @@ def cut_line(line: str, delimiter: str='\t', fields: list[int]=[]) -> list[str]:
     [' Better', ' Stronger']
     '''
     
-    lline = line.split(delimiter)
+    del_line = line.split(delimiter)
 
-    fline = []
+    fin_line = []
 
     for num in fields:
         try:
-            fline.append(lline[int(num)-1])
+            fin_line.append(del_line[int(num)-1])
         except IndexError:
             pass
 
-    return fline
+    return fin_line
 
 def cut_stream(stream=sys.stdin, delimiter: str='\t', fields: list[int]=[]) -> None:
     ''' Print selected parts of lines from stream to standard output.
@@ -55,7 +55,6 @@ def cut_stream(stream=sys.stdin, delimiter: str='\t', fields: list[int]=[]) -> N
     >>> cut_stream(io.StringIO('Harder, Better, Faster, Stronger'), ',', [2, 4])
      Better, Stronger
     '''
- #   c = 0
 
     for line in stream:
         line = line.rstrip()
@@ -63,8 +62,6 @@ def cut_stream(stream=sys.stdin, delimiter: str='\t', fields: list[int]=[]) -> N
         curline = delimiter.join(line)
         print(curline)
 
- #   if c == 1:
- #       fline = fline[:-1]
 
 
 # Main Execution
