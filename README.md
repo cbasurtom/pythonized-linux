@@ -1,6 +1,6 @@
 # pythonized-linux
 
-pythonized-linux is a repository dedicated to various Linux commands I have implemented inot Python as practice, optional coursework for [Systems Programming](https://www3.nd.edu/~pbui/teaching/cse.20289.sp24/), and overall just for fun. These programs were essential for comprehending how to manage text input and output and will be updted to include more commands later on.
+pythonized-linux is a repository dedicated to various Linux commands I have implemented into Python as practice, optional coursework for [Systems Programming](https://www3.nd.edu/~pbui/teaching/cse.20289.sp24/), and overall just for fun. These programs were essential for comprehending how to manage text input and output and will be updted to include more commands later on.
 
 ## cut
 
