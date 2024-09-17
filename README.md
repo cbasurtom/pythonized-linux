@@ -2,12 +2,12 @@
 
 pythonized-linux is a repository dedicated to various Linux commands I have implemented into Python as practice, optional coursework for [Systems Programming](https://www3.nd.edu/~pbui/teaching/cse.20289.sp24/), and overall just for fun. These programs were essential for comprehending how to manage text input and output and will be updted to include more commands later on.
 
-## cut
+## cutit
 
 ### Usage
 
 ```python
-'''Usage: cut -d DELIMITER -f FIELDS
+'''Usage: cutit -d DELIMITER -f FIELDS
 
 Print selected parts of lines from stream to standard output.
 
@@ -15,12 +15,12 @@ Print selected parts of lines from stream to standard output.
     -f FIELDS       Select only these fields'''
 ```
 
-## wc
+## wcit
 
 ### Usage
 
 ```python
-'''Usage: wc.py [-l | -w | -c]
+'''Usage: wcit.py [-l | -w | -c]
 
 Print newline, word, and byte counts from standard input.
 
